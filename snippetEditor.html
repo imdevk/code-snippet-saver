@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Save Code Snippet</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+    body {
+      width: auto;
+      height: auto;
+      padding: 20px;
+    }
+    input, textarea {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    #code {
+      height: 200px;
+      background-color: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+  <h2>Save Code Snippet</h2>
+  <input type="text" id="title" placeholder="Title">
+  <textarea id="description" placeholder="Description (optional)"></textarea>
+  <textarea id="code" readonly></textarea>
+  <button id="saveButton">Save Snippet</button>
+  <script src="snippetEditor.js"></script>
+</body>
+</html>
